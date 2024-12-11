@@ -30,6 +30,7 @@ local defaults = {
     NOTE = { icon = " ", color = "hint", alt = { "INFO" } },
     TEST = { icon = "⏲ ", color = "test", alt = { "TESTING", "PASSED", "FAILED" } },
     POOKIE = { icon = "󰄛", color = "cute" },
+    ARCANE = { icon = "󰠲", icon_2 = "󰠱", color = "esoteric", alt = { "ELDRITCH" } },
   },
   gui_style = {
     fg = "NONE", -- The gui style to use for the fg highlight group.
@@ -65,6 +66,7 @@ local defaults = {
     default = { "Identifier", "#7C3AED" },
     test = { "Identifier", "#FF00FF" },
     cute = { "Identifier", "#FC038C" },
+    esoteric = { "Identifier", "AA00FF" },
   },
   search = {
     command = "rg",
